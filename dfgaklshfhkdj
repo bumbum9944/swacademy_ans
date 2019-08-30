@@ -1,0 +1,25 @@
+[1mdiff --git a/p_1961.py b/p_1961.py[m
+[1mindex 52b72b3..a03c60b 100644[m
+[1m--- a/p_1961.py[m
+[1m+++ b/p_1961.py[m
+[36m@@ -6,10 +6,13 @@[m [mfor test in range(1, tests+1):[m
+         matrix.append(list(map(int, input().split())))[m
+ [m
+ [m
+[31m-    def rotation(matrix):[m
+[31m-        matrix_col90 = list(zip(*matrix))[m
+[31m-        matrix_col180 = list(zip(*matrix))[m
+[31m-        matrix_col270 = list(zip(*matrix))[m
+[32m+[m[32mdef rotation(matrix):[m
+[32m+[m[32m    matrix_col90 = list(zip(*matrix))[m
+[32m+[m[32m    matrix_col180 = list(zip(*matrix))[m
+[32m+[m[32m    matrix_col270 = list(zip(*matrix))[m
+ [m
+[31m-        for i in range(N):[m
+[31m-            for i [m
+[32m+[m[41m        [m
+[32m+[m[32mdef prin(matrix_90, matrix_180, matrix_270):[m
+[32m+[m[32m    N = len(rot_matrix)[m
+[32m+[m[32m    for i in range(N):[m
+[32m+[m[32m        m90 =[m[41m [m
+\ No newline at end of file[m
